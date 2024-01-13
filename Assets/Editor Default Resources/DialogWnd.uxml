@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="RootElement" style="flex-grow: 1;">
+        <ui:VisualElement name="Title" style="flex-direction: row; height: 20px;">
+            <ui:TextField picking-mode="Ignore" label="对话树名" value="文件名" name="FileName" style="width: 714px;" />
+            <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveBtn" />
+            <ui:Button text="Load" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoadBtn" />
+            <ui:Button text="Clear" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ClearBtn" />
+            <ui:Button text="打开缩略图" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MiniMapBtn" />
+        </ui:VisualElement>
+        <DialogSystem.Editor.GraphicsElements.TwoPanelExtensionHorizontal />
+    </ui:VisualElement>
+</ui:UXML>

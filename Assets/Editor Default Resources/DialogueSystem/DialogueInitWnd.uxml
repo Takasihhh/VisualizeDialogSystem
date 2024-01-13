@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement name="rootContainer" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement name="ButtonContaerin" style="flex-grow: 1; height: 359px; justify-content: flex-end; align-items: center;">
+            <ui:Label tabindex="-1" text="没有对话树，创建或者打开一个对话树" parse-escape-sequences="true" display-tooltip-when-elided="true" name="content" style="font-size: 45px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MIddleContainer" style="flex-grow: 1; height: 318px; flex-direction: row; justify-content: center; align-self: auto; align-items: center;">
+            <ui:Button text="创建" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateBtn" style="height: 50px; width: 200px;" />
+            <ui:Button text="打开" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OpenBtn" style="width: 200px; height: 50px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ButtomContainer" style="flex-grow: 1; height: 318px;" />
+    </ui:VisualElement>
+</ui:UXML>

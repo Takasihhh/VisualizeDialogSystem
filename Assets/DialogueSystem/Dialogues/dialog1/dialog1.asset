@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ba64fd2daad4b7aabe013ca1400ae40, type: 3}
+  m_Name: dialog1
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: dialog1
+  _tree:
+    rid: 8211920648039825409
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 8211920648039825409
+      type: {class: DialogTree, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        _rootNode:
+          rid: 8211920648039825410
+        _curNode:
+          rid: 8211920648039825410
+        childrenTable:
+          rid: 8211920648039825411
+        _nodeList:
+        - rid: 8211920648039825410
+        - rid: 8211920648039825412
+        - rid: 8211920648039825413
+        - rid: 8211920648039825414
+        - rid: 8211920648039825415
+        _indexDic:
+          rid: 8211920648039825416
+    - rid: 8211920648039825410
+      type: {class: DialogNode, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        m_NodeInfo:
+          TextHeader: 
+          Context:
+            _contextInfos:
+            - name: 0
+              characterImg: {fileID: 21300000, guid: de714651cdf4f0845afd666847773af1, type: 3}
+              singleSentence:
+              - "\u4F60\u597D"
+              - "\u8FD9\u662F\u4E00\u4E2A\u6D4B\u8BD5\u7A0B\u5E8F"
+              - "\u6211\u662F\u7B2C\u4E00\u4E2AAI"
+            - name: 1
+              characterImg: {fileID: 21300000, guid: 86e92d0a3125e7143bb8be4da36a60bb, type: 3}
+              singleSentence:
+              - "\u4F60\u597D"
+              - "\u6211\u662F\u7B2C\u4E8C\u4E2AAI"
+          TriggerEventID: []
+        childIDDic:
+          rid: 8211920648039825417
+        _visible: 1
+        _onRead: 0
+    - rid: 8211920648039825411
+      type: {class: SerializableStringListDictionary, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        list:
+        - Key: 27559856-87b7-4cd9-9d42-f249dba6bcaf
+          Value:
+          - 04d78f83-95d5-49b7-bfda-84c0b5c2c3c2
+          - 2e8f50bf-a910-4d04-a9de-0e7fc5aacdaf
+        - Key: 2e8f50bf-a910-4d04-a9de-0e7fc5aacdaf
+          Value:
+          - e142ba2e-c47c-44c7-8d47-1708886f2b23
+        - Key: e142ba2e-c47c-44c7-8d47-1708886f2b23
+          Value: []
+        - Key: 04d78f83-95d5-49b7-bfda-84c0b5c2c3c2
+          Value:
+          - 05b95ad6-9016-46d5-9be9-fa3e8af21c01
+        - Key: 05b95ad6-9016-46d5-9be9-fa3e8af21c01
+          Value: []
+    - rid: 8211920648039825412
+      type: {class: DialogNode, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        m_NodeInfo:
+          TextHeader: "\u4EC0\u4E48\u610F\u601D"
+          Context:
+            _contextInfos:
+            - name: 1
+              characterImg: {fileID: 21300000, guid: 86e92d0a3125e7143bb8be4da36a60bb, type: 3}
+              singleSentence:
+              - "\u5C31\u662F\u8BF4\u6211\u73B0\u5728\u8981\u7ED9\u4F60\u6F14\u793A\u4E00\u4E0B"
+              - "\u628A\u5C0F\u7403\u4E22\u4E0A\u5929"
+              - "\u542C\u61C2\u4E86\u5417"
+          TriggerEventID: []
+        childIDDic:
+          rid: 8211920648039825418
+        _visible: 1
+        _onRead: 0
+    - rid: 8211920648039825413
+      type: {class: EventNode, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        m_NodeInfo:
+          TextHeader: __EVENTNODE
+          Context:
+            _contextInfos:
+            - name: 1
+              characterImg: {fileID: 21300000, guid: 86e92d0a3125e7143bb8be4da36a60bb, type: 3}
+              singleSentence:
+              - "\u5F00\u59CB\u4E86\u54DF"
+          TriggerEventID:
+          - 85551fd7-6361-45b1-9041-001b24325680
+        childIDDic:
+          rid: -2
+        _triggerEvtID:
+        - 85551fd7-6361-45b1-9041-001b24325680
+    - rid: 8211920648039825414
+      type: {class: DialogNode, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        m_NodeInfo:
+          TextHeader: "\u4E86\u89E3\u4E86"
+          Context:
+            _contextInfos:
+            - name: 0
+              characterImg: {fileID: 21300000, guid: de714651cdf4f0845afd666847773af1, type: 3}
+              singleSentence:
+              - "\u597D\u7684"
+              - "\u63A5\u4E0B\u6765\u6211\u4F1A\u7ED9\u4F60\u4E00\u4E2A\u5C0F\u5C0F\u7684\u4E2D\u56FD\u9707\u64BC"
+          TriggerEventID: []
+        childIDDic:
+          rid: 8211920648039825419
+        _visible: 1
+        _onRead: 0
+    - rid: 8211920648039825415
+      type: {class: EventNode, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        m_NodeInfo:
+          TextHeader: __EVENTNODE
+          Context:
+            _contextInfos:
+            - name: 0
+              characterImg: {fileID: 21300000, guid: de714651cdf4f0845afd666847773af1, type: 3}
+              singleSentence:
+              - "\u6211\u4F1A\u628A\u5C0F\u7403\u4E22\u4E0A\u5929"
+          TriggerEventID:
+          - 85551fd7-6361-45b1-9041-001b24325680
+        childIDDic:
+          rid: -2
+        _triggerEvtID:
+        - 85551fd7-6361-45b1-9041-001b24325680
+    - rid: 8211920648039825416
+      type: {class: SerializableIndexDictionary, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        list:
+        - Key: 27559856-87b7-4cd9-9d42-f249dba6bcaf
+          Value: 0
+        - Key: 2e8f50bf-a910-4d04-a9de-0e7fc5aacdaf
+          Value: 1
+        - Key: e142ba2e-c47c-44c7-8d47-1708886f2b23
+          Value: 2
+        - Key: 04d78f83-95d5-49b7-bfda-84c0b5c2c3c2
+          Value: 3
+        - Key: 05b95ad6-9016-46d5-9be9-fa3e8af21c01
+          Value: 4
+    - rid: 8211920648039825417
+      type: {class: SerializableStringDictionary, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        list:
+        - Key: "\u4E86\u89E3\u4E86"
+          Value: 04d78f83-95d5-49b7-bfda-84c0b5c2c3c2
+        - Key: "\u4EC0\u4E48\u610F\u601D"
+          Value: 2e8f50bf-a910-4d04-a9de-0e7fc5aacdaf
+    - rid: 8211920648039825418
+      type: {class: SerializableStringDictionary, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        list:
+        - Key: __EVENTNODE
+          Value: e142ba2e-c47c-44c7-8d47-1708886f2b23
+    - rid: 8211920648039825419
+      type: {class: SerializableStringDictionary, ns: DialogSystem.DataStructure, asm: Assembly-CSharp}
+      data:
+        list:
+        - Key: __EVENTNODE
+          Value: 05b95ad6-9016-46d5-9be9-fa3e8af21c01

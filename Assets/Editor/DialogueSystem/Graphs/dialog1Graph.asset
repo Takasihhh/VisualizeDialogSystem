@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c110d69c8c41018a3d0d36f2d58b89, type: 3}
+  m_Name: dialog1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: dialog1
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 2e8f50bf-a910-4d04-a9de-0e7fc5aacdaf
+    <Name>k__BackingField: "\u9009\u98792"
+    <NodeType>k__BackingField: 1
+    <ConnectionID>k__BackingField:
+    - e142ba2e-c47c-44c7-8d47-1708886f2b23
+    <Position>k__BackingField: {x: 265.3333, y: 422.6667}
+    <ContextData>k__BackingField:
+      _contextInfos:
+      - name: 1
+        characterImg: {fileID: 21300000, guid: 86e92d0a3125e7143bb8be4da36a60bb, type: 3}
+        singleSentence:
+        - "\u5C31\u662F\u8BF4\u6211\u73B0\u5728\u8981\u7ED9\u4F60\u6F14\u793A\u4E00\u4E0B"
+        - "\u628A\u5C0F\u7403\u4E22\u4E0A\u5929"
+        - "\u542C\u61C2\u4E86\u5417"
+    <EventIDs>k__BackingField: []
+    <TextHeader>k__BackingField: "\u4EC0\u4E48\u610F\u601D"
+    <isRootNode>k__BackingField: 0
+  - <ID>k__BackingField: e142ba2e-c47c-44c7-8d47-1708886f2b23
+    <Name>k__BackingField: "\u4E8B\u4EF6\u8282\u70B9"
+    <NodeType>k__BackingField: 0
+    <ConnectionID>k__BackingField: []
+    <Position>k__BackingField: {x: 497.3333, y: 422.6667}
+    <ContextData>k__BackingField:
+      _contextInfos:
+      - name: 1
+        characterImg: {fileID: 21300000, guid: 86e92d0a3125e7143bb8be4da36a60bb, type: 3}
+        singleSentence:
+        - "\u5F00\u59CB\u4E86\u54DF"
+    <EventIDs>k__BackingField:
+    - 85551fd7-6361-45b1-9041-001b24325680
+    <TextHeader>k__BackingField: __EVENTNODE
+    <isRootNode>k__BackingField: 0
+  - <ID>k__BackingField: 04d78f83-95d5-49b7-bfda-84c0b5c2c3c2
+    <Name>k__BackingField: "\u9009\u98791"
+    <NodeType>k__BackingField: 1
+    <ConnectionID>k__BackingField:
+    - 05b95ad6-9016-46d5-9be9-fa3e8af21c01
+    <Position>k__BackingField: {x: 254.66669, y: 219.33333}
+    <ContextData>k__BackingField:
+      _contextInfos:
+      - name: 0
+        characterImg: {fileID: 21300000, guid: de714651cdf4f0845afd666847773af1, type: 3}
+        singleSentence:
+        - "\u597D\u7684"
+        - "\u63A5\u4E0B\u6765\u6211\u4F1A\u7ED9\u4F60\u4E00\u4E2A\u5C0F\u5C0F\u7684\u4E2D\u56FD\u9707\u64BC"
+    <EventIDs>k__BackingField: []
+    <TextHeader>k__BackingField: "\u4E86\u89E3\u4E86"
+    <isRootNode>k__BackingField: 0
+  - <ID>k__BackingField: 27559856-87b7-4cd9-9d42-f249dba6bcaf
+    <Name>k__BackingField: "\u6839\u8282\u70B9"
+    <NodeType>k__BackingField: 1
+    <ConnectionID>k__BackingField:
+    - 04d78f83-95d5-49b7-bfda-84c0b5c2c3c2
+    - 2e8f50bf-a910-4d04-a9de-0e7fc5aacdaf
+    <Position>k__BackingField: {x: 7.3333435, y: 308.6667}
+    <ContextData>k__BackingField:
+      _contextInfos:
+      - name: 0
+        characterImg: {fileID: 21300000, guid: de714651cdf4f0845afd666847773af1, type: 3}
+        singleSentence:
+        - "\u4F60\u597D"
+        - "\u8FD9\u662F\u4E00\u4E2A\u6D4B\u8BD5\u7A0B\u5E8F"
+        - "\u6211\u662F\u7B2C\u4E00\u4E2AAI"
+      - name: 1
+        characterImg: {fileID: 21300000, guid: 86e92d0a3125e7143bb8be4da36a60bb, type: 3}
+        singleSentence:
+        - "\u4F60\u597D"
+        - "\u6211\u662F\u7B2C\u4E8C\u4E2AAI"
+    <EventIDs>k__BackingField: []
+    <TextHeader>k__BackingField: 
+    <isRootNode>k__BackingField: 1
+  - <ID>k__BackingField: 05b95ad6-9016-46d5-9be9-fa3e8af21c01
+    <Name>k__BackingField: "\u4E8B\u4EF6\u8282\u70B9"
+    <NodeType>k__BackingField: 0
+    <ConnectionID>k__BackingField: []
+    <Position>k__BackingField: {x: 466.6667, y: 219.33333}
+    <ContextData>k__BackingField:
+      _contextInfos:
+      - name: 0
+        characterImg: {fileID: 21300000, guid: de714651cdf4f0845afd666847773af1, type: 3}
+        singleSentence:
+        - "\u6211\u4F1A\u628A\u5C0F\u7403\u4E22\u4E0A\u5929"
+    <EventIDs>k__BackingField:
+    - 85551fd7-6361-45b1-9041-001b24325680
+    <TextHeader>k__BackingField: __EVENTNODE
+    <isRootNode>k__BackingField: 0

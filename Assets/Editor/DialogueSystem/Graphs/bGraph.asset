@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c110d69c8c41018a3d0d36f2d58b89, type: 3}
+  m_Name: bGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: b
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: a17cd612-88b9-4e91-87ad-dcbf0c6d0c96
+    <Name>k__BackingField: "\u6839\u8282\u70B9"
+    <NodeType>k__BackingField: 1
+    <ConnectionID>k__BackingField:
+    - b3cad7c0-9b1b-4419-8181-04f680776305
+    <Position>k__BackingField: {x: 161.33334, y: 321.33334}
+    <ContextData>k__BackingField:
+      _contextInfos: []
+  - <ID>k__BackingField: b3cad7c0-9b1b-4419-8181-04f680776305
+    <Name>k__BackingField: "\u5BF9\u8BDD\u8282\u70B9"
+    <NodeType>k__BackingField: 1
+    <ConnectionID>k__BackingField: []
+    <Position>k__BackingField: {x: 480.6667, y: 121.33333}
+    <ContextData>k__BackingField:
+      _contextInfos: []
